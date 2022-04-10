@@ -2,7 +2,6 @@ import { StaticImage } from "gatsby-plugin-image";
 import React from "react";
 import styled from "styled-components";
 import { Link } from "gatsby";
-import { Button } from "../components/Button";
 import { GlobalStyle } from "../components/styles/GlobalStyles";
 
 const ErrorPage = () => {

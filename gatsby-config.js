@@ -6,6 +6,18 @@ module.exports = {
     author: "DevSnow",
   },
   plugins: [
+    {
+      resolve: `gatsby-plugin-manifest`,
+      options: {
+        name: `Travello`,
+        short_name: `Travello`,
+        start_url: `/`,
+        background_color: `#fff`,
+        theme_color: `#f26a2e`,
+        display: `standalone`,
+        icon: `./src/assets/images/icon.png`,
+      },
+    },
     `gatsby-plugin-image`,
     {
       resolve: `gatsby-source-filesystem`,

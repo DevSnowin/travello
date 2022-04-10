@@ -1,11 +1,16 @@
 {
-  "name": "travel-website",
+  "name": "travello",
   "version": "1.0.0",
   "private": true,
-  "description": "travel-website",
+  "description": "travello",
   "author": "Snowin",
   "keywords": [
-    "gatsby"
+    "gatsby",
+    "travel",
+    "explore",
+    "trip",
+    "travel site",
+    "book a flight"
   ],
   "scripts": {
     "develop": "gatsby develop",
@@ -20,6 +25,7 @@
     "babel-plugin-styled-components": "^2.0.7",
     "gatsby": "^4.11.2",
     "gatsby-plugin-image": "^2.11.1",
+    "gatsby-plugin-manifest": "^4.11.1",
     "gatsby-plugin-sharp": "^4.11.1",
     "gatsby-plugin-styled-components": "^5.11.0",
     "gatsby-source-filesystem": "^4.11.1",

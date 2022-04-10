@@ -21,7 +21,7 @@ const Header = ({ setIsOpen }) => {
         ))}
       </NavItems>
       <NavBtn>
-        <Button round='true' primary='true' to='/trips'>
+        <Button round='true' primary='true' to='/'>
           Book a Flight
         </Button>
       </NavBtn>

@@ -43,7 +43,7 @@ const Trips = ({ headings }) => {
                 <PlanTitle>{item.node.name}</PlanTitle>
               </TextWrap>
               <Button
-                to='/trips'
+                to='/'
                 primary='true'
                 round='true'
                 css={`
@@ -72,7 +72,7 @@ const PlansContainer = styled.div`
 const PlanHeading = styled.h1`
   font-size: clamp(1.2rem, 5vw, 3rem);
   text-align: center;
-  margin-bottom: 5rem;
+  margin-block: 5rem;
   color: #121212;
 `;
 

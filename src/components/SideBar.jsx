@@ -11,17 +11,23 @@ const SideBar = ({ isOpen, setIsOpen }) => {
       <CloseBtn onClick={() => setIsOpen((prev) => !prev)} />
       <SideBarItems>
         {menuData.map((navLink, i) => (
-          <SideBarLink to={navLink.link} key={i}>
+          <SideBarLink
+            to={navLink.link}
+            key={i}
+            onClick={() => setIsOpen((prev) => !prev)}
+          >
             {navLink.title}
           </SideBarLink>
         ))}
         <Button
+          to='/'
           primary='true'
           round='true'
           big='true'
           css={`
             font-weight: bold;
           `}
+          onClick={() => setIsOpen((prev) => !prev)}
         >
           Book a Flight
         </Button>
