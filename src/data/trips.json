@@ -1,0 +1,26 @@
+[
+  {
+    "img": "../assets/images/plan-1.jpg",
+    "alt": "Jersualem",
+    "name": "Jerusalem",
+    "button": "View Destination"
+  },
+  {
+    "img": "../assets/images/plan-2.jpg",
+    "alt": "Egypt",
+    "name": "Egypt",
+    "button": "View Destination"
+  },
+  {
+    "img": "../assets/images/plan-3.jpg",
+    "alt": "New York",
+    "name": "New York",
+    "button": "View Destination"
+  },
+  {
+    "img": "../assets/images/plan-4.jpg",
+    "alt": "Switzerland",
+    "name": "Switzerland",
+    "button": "View Destination"
+  }
+]
